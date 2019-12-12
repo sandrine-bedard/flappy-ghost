@@ -1,0 +1,44 @@
+Bonus.txt
+
+Bonus TWADO :
+
+On a mis un "final static string" dans le controlleur contenant le mot de passe
+à entrer afin d'avoir l'effet escompté et on a aussi un attribut int qui dit
+à quelle est la prochaine touche à appuyer afin de progresser dans le mot de
+passe. Si la touche n'est pas celle demandée (et qu'elle n'est pas une commande
+du jeu tel que Espace et Enter (deuxième bonus)), le compteur retourne à 0.
+
+Si le mot de passe est entré, on appelle la fonction flip qui prend l'écran
+de jeu (pane) du view et qui le flip en faisant pane.setScaleY(-1). S'il est
+déjà à l'envers, on le remet à l'endroit. On sait s'il est à l'envers ou pas
+grâce au boolean "twado".
+
+
+Bonus Boss :
+
+Le jeu vous permet d'attaquer la créature la plus féroce de tous, on parle ici
+bien sûr de ... LA REINE D'ANGLETERRE. Et oui, si elle vous attrape, elle vous
+fait la morale et vous force à manger des légumes, ce qui vous fera perdre la
+partie. Par chance, vous êtes également équipé d'une arme anti-reine qui la
+repoussera pour quelques temps. Mais ne soyez pas trop confiant, la reine est
+encore proche et n'attend que vous baissiez votre garde avant de vous attaquer à nouveau.
+
+Du côté programmation, on a créé un objet "Boss" qui contient les attributs
+et methodes de la reine. Elle est très semblable aux obstacles :
+
+- Si on la touche on recommence la partie et le score tombe à 0;
+- Elle se déplace dans l'espace;
+- Structure de l'objet assez similaire;
+
+On a aussi créé une classe "Bullet" qui signifie les balles tirées par le
+joueur. Si elle touche la reine, elle disparait et lui inflige du dégât et
+si elle sort de l'écran, elle disparait également. Elle n'a aucun effet sur les
+légumes (car ça ne vit pas des légumes !). Une seule balle peut exister à la fois.
+
+Bonus ++ :
+- L'icône en haut à gauche a été initialisé
+- Une musique d'ambiance a été ajoutée (un bouton "Mute" a été ajouté si jamais
+ ça vous dérange durant la correction)
+
+Bonne correction !
+Justin Michaud & Sandrine Bédard
