@@ -3,4 +3,4 @@ The player embodies a ghost and there is no goal other than to advance as long a
 
 # What I Learned
 * How to code a GUI using the JavaFX library.
-* Intermiate programming concepts, such as: OOP, graphical interfaces, animation, software development.
+* Intermediate programming concepts, such as: OOP, graphical interfaces, animation, software development.
